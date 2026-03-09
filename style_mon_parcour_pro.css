@@ -1,0 +1,226 @@
+.top{
+    background-color: #6d071a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+    }
+
+.containerleftright{
+    display: flex;     
+    justify-content: space-between;
+    width: 70%;
+    margin: 5px auto;
+}
+
+.left, .right{
+    width: 60%;
+    padding: 5px;
+        }
+        
+.main{
+    display: flex;
+    flex: 1;          
+    width: 70%;
+    margin: 20px auto;
+
+    }
+        
+.content{
+     width: 80%;
+    padding: 20px;
+    align-items: center;
+    background-color : lightgray;
+    text-align: justify;
+    }
+        
+.sectionsleft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+     }
+
+.sectionleft{
+    background-color: lightgray;
+    width: 230px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: fit-content;
+    }
+
+.button-style{
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6d071a;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.button-style-mail{
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6d071a;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+        
+.button-style-cv{
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6d071a;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+     }
+
+  
+       
+a {
+    text-decoration: none;
+    color: white;
+    }
+
+.video{
+    flex: 1; 
+    margin: 10px;
+    }
+    
+#button-media{
+    
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6d071a;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+img {
+    display: block;
+    margin: auto;
+    }
+        
+
+.déroulement {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.détails {
+    display: none;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.photo-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;  /*espace entre les lgines et colonnes*/
+    padding: 40px;
+    flex-wrap: wrap; /*autoriser le retour à la ligne*/
+}
+
+
+.photo-container{
+    width: 300px;
+    height: 220px;
+    }
+
+.photo-container img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+     }
+
+.photo-container .titre{
+    background: #6d071a;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;  
+    font-size: 16px;
+    cursor: pointer;
+    }
+        
+.photo-container:hover .titre {
+    opacity: 1;
+    }
+        
+.description-section{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #6d071a;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    }
+
+        
+body{
+    background-color: #e8dfd6;
+}
+
+.détails{
+    text-align: justify;
+    background-color: lightgray;
+}
+
+.button-acceuil{
+    display: flex;
+    background-color: #6d071a;
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 60px;
+    box-shadow: 0 10px 15px #6d071a;
+    font-weight: bold;
+    font-family:'Times New Roman';
+    cursor: pointer;
+    justify-content: center;
+}
+
+.home{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size:16px;
+    text-decoration:none;
+    color:white;
+    background:transparent;
+}
